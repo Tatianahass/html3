@@ -1,0 +1,160 @@
+/*.breakfast_theme {
+	
+background-color:#f7f70a ;
+
+}*/
+
+body {
+background-color: #faba39;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	padding: 20px 0;
+    background-color:#f57207;
+	display: flex;
+	justify-content: right;
+	text-align: right;
+	z-index: 100;
+}
+
+
+
+nav a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 35px;
+	transition: .3s;
+	padding: 14px 16px;
+	width: 100%;
+}
+
+a {
+color: white;	
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+.center {
+  text-align: center;
+  color: white;	
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+
+/*img {
+width: 300px;
+height: 300px;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0.2), 0 6px 20px 0 rgba(0,0,0.19);
+margin-bottom: 25px;
+margin: 20;
+justify-content: center;
+align-items: center;
+vertical-align: middle;
+}*/
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+section a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+section a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+hr {
+color: white;
+border-top: 1px solid;
+border-color: #f57207
+}
+
+.row{
+	margin-top: 5%;
+	margin_bottom: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	/*padding-top: 100%;*/
+	color: white;	
+	font-family: 'Trebuchet MS', sans-serif;
+	
+}
+
+.gallery-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin_bottom: 5%;
+	text-align: left;
+	
+}
+
+.gallery-col img {
+	width: 300px;
+	height: 300px;
+	/*width: 100%;*/
+	border_radius: 5px;
+	
+}
+
+.gallery-col p{
+	padding: 0;
+}
+
+.gallery-col h3{
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+/**{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}*/
+
+.gallery-col table {
+	/*position: absolute;*/
+	/*z-index: 2;*/
+	/*left: 50%;*/
+	top: 10%;
+	width: 90%;
+	height: 100px;
+	background: white;
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: 12px 12px 12px 12px;
+	overflow: hidden;
+	
+}
+
+th, td{
+	padding: 0 0;
+	
+}
+
+th {
+	background: #f57207;
+	color: white;
+	/*text-transform: uppercase;*/
+}
